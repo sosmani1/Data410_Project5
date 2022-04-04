@@ -240,7 +240,7 @@ for x in range(100):
   
 ## Now we will be Displaying the final results:
 ```
-  from math import sqrt
+from math import sqrt
 print('Final Results:')
 print('\n')
 print('Ridge + Grid Search:')
