@@ -1,9 +1,12 @@
 # Advanced Machine Learning Project 5
 
+![Machine Learning pic](https://user-images.githubusercontent.com/78623027/161595751-3907cdb6-ecb9-455b-ace4-4fd03d1ae057.jpeg)
+
+
 ### A Comparison of Different Regularization and Variable Selection Techniques
 ### In this project, we will apply and compare the different regularization techniques including Ridge, LASSO, Elastic Net, SCAD, and Square Root Lasso.
 
-This project is interesting because it focuses more on the coding aspect rather than an explanatory aspect. Given the advanced nature of our courses progress I will assume any readers here will fully grasp the mechanics of Ridge, LASSO, Elastic Net, SCAD, and Square Root Lasso. If you do not please feel free to contact me with further questions. 
+## This project is interesting because it focuses more on the coding aspect rather than an explanatory aspect. Given the advanced nature of our courses progress I will assume any readers here will fully grasp the mechanics of Ridge, LASSO, Elastic Net, SCAD, and Square Root Lasso. If you do not please feel free to contact me with further questions. 
 
 
 ```
