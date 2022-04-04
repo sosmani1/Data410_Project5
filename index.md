@@ -273,30 +273,30 @@ print('Average L2 distance: ' + str(L2_SCAD/100))
 
 
 Ridge + Grid Search:
-Average RMSE: 6.538135915575019
-Average # non-zero coefficients: 1200.0
-Average L2 distance: 3.820927108613206
+* Average RMSE: 6.538135915575019
+* Average # non-zero coefficients: 1200.0
+* Average L2 distance: 3.820927108613206
 
 
 Lasso + Grid Search:
-Average RMSE: 4.641382822119719
-Average # non-zero coefficients: 185.1
-Average L2 distance: 6.129713935549328
+* Average RMSE: 4.641382822119719
+* Average # non-zero coefficients: 185.1
+* Average L2 distance: 6.129713935549328
 
 
 ElasicNet + Grid Search:
-Average RMSE: 4.451569094754115
-Average # non-zero coefficients: 47.9
-Average L2 distance: 3.7681904829435817
+* Average RMSE: 4.451569094754115
+* Average # non-zero coefficients: 47.9
+* Average L2 distance: 3.7681904829435817
 
 
 SQRT Lasso + Grid Search:
-Average RMSE: 4.757838554779526
-Average # non-zero coefficients: 1200.0
-Average L2 distance: 4.749864375747746
+* Average RMSE: 4.757838554779526
+* Average # non-zero coefficients: 1200.0
+* Average L2 distance: 4.749864375747746
 
 
 SCAD + Grid Search:
-Average RMSE: 7.563598753366877
-Average # non-zero coefficients: 1200.0
-Average L2 distance: 3.7968680651667626
+* Average RMSE: 7.563598753366877
+* Average # non-zero coefficients: 1200.0
+* Average L2 distance: 3.7968680651667626
