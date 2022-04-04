@@ -94,7 +94,7 @@ class SQRTLasso:
         return self
 ```
 ## Now we will create a Sklearn compliant SCAD function:
-
+```
 @njit
 def scad_penalty(beta_hat, lambda_val, a_val):
     is_linear = (np.abs(beta_hat) <= lambda_val)
@@ -109,6 +109,7 @@ def scad_penalty(beta_hat, lambda_val, a_val):
 @njit    
 def scad_derivative(beta_hat, lambda_val, a_val):
     return lambda_val * ((beta_hat <= lambda_val) + (a_val * lambda_val - beta_hat)*((a_val * lambda_val - beta_hat) > 0) / ((a_val - 1) * lambda_val) * (beta_hat > lambda_val))
+```
 
 ```
 from sklearn.base import BaseEstimator, RegressorMixin
@@ -145,7 +146,7 @@ class SCAD(BaseEstimator, RegressorMixin):
         return x.dot(self.coef_)
 ```
 
-Now we will be Simulating 100 datasets, applying variable selection methods + GridSearchCV, and calculating final results:
+## Now we will be Simulating 100 datasets, applying variable selection methods + GridSearchCV, and calculating final results:
 
 ```
 
@@ -234,7 +235,7 @@ for x in range(100):
   L2_SCAD += np.linalg.norm(coefs-beta_star,ord=2)
   ```
   
-  Now we will be Displaying the final results:
+## Now we will be Displaying the final results:
 ```
   from math import sqrt
 print('Final Results:')
