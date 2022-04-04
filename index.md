@@ -6,7 +6,7 @@
 ### A Comparison of Different Regularization and Variable Selection Techniques
 ### In this project, we will apply and compare the different regularization techniques including Ridge, LASSO, Elastic Net, SCAD, and Square Root Lasso.
 
-## This project is interesting because it focuses more on the coding aspect rather than an explanatory aspect. Given the advanced nature of our courses progress I will assume any readers here will fully grasp the mechanics of Ridge, LASSO, Elastic Net, SCAD, and Square Root Lasso. If you do not please feel free to contact me with further questions. 
+### This project is interesting because it focuses more on the coding aspect rather than an explanatory aspect. Given the advanced nature of our courses progress I will assume any readers here will fully grasp the mechanics of Ridge, LASSO, Elastic Net, SCAD, and Square Root Lasso. If you do not please feel free to contact me with further questions. 
 
 
 ```
